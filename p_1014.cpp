@@ -7,7 +7,7 @@ using namespace std;
 struct Customer{
 	int start, end;
 	int line;
-	
+
 	bool operator < (const Customer tmp) const {
 		if(end!=tmp.end){
 			return end > tmp.end;
@@ -56,7 +56,7 @@ int main(){
 		mp[i+1] = tmp;
 		custom.push(tmp);
 	}
-	
+
 	int latest = (17 - 8) * 60;
 	for(int i=0;i<q;i++){
 		int id;

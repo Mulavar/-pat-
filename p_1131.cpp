@@ -22,6 +22,7 @@ int getTrans(vector<int> tmp){
 	}
 	return trans;
 }
+
 void DFS(int p1, int p2, int d){
 	tmpPath.push_back(p1);
 	visited[p1] = true;
